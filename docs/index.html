@@ -72,6 +72,16 @@ h2{font-size:clamp(28px,4vw,38px);font-weight:800;letter-spacing:-.02em;text-ali
 @keyframes back{0%{left:calc(100% - 10px);opacity:0}12%{opacity:1}88%{opacity:1}100%{left:0;opacity:0}}
 .p2p-text{text-align:center;color:var(--mut);max-width:560px;margin:22px auto 0}
 
+.free{max-width:760px;margin:0 auto;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--panel)}
+.free .row{display:grid;grid-template-columns:1.1fr 1fr 1fr;border-top:1px solid var(--line)}
+.free .row:first-child{border-top:0;background:#191a1f}
+.free .row>div{padding:14px 16px;font-size:15px}
+.free .row>div:first-child{color:var(--mut);font-weight:600}
+.free .hd{font-weight:800;font-size:15px}
+.free .us{color:var(--ink);font-weight:700;background:rgba(229,112,58,.08)}
+.free .us.hd{color:var(--acc)}
+.free-note{text-align:center;color:var(--mut);font-size:13px;margin-top:12px}
+@media (max-width:560px){.free .row>div{padding:12px 10px;font-size:13.5px}}
 footer{margin-top:100px;border-top:1px solid var(--line);padding:28px 0 40px;color:var(--mut);font-size:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 footer a{color:var(--mut)}
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}
@@ -122,6 +132,16 @@ footer a{color:var(--mut)}
     <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="13" height="10" rx="1.5"/><rect x="16" y="8" width="6" height="12" rx="1.5"/><path d="M6 18h6"/></svg></div><h3>All your devices</h3><p>PC and phone on the same account, linked with a code and kept in sync.</p></div>
     <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5a14 14 0 0 1 0 19M12 2.5a14 14 0 0 0 0 19"/></svg></div><h3>Your language</h3><p>English, Italian and Spanish. Follows your system language.</p></div>
   </div>
+
+  <h2 class="reveal">Free. No subscription.</h2>
+  <div class="free reveal">
+    <div class="row"><div></div><div class="hd">Discord (free)</div><div class="hd us">Livius Chat</div></div>
+    <div class="row"><div>Screen sharing</div><div>720p · 30 fps</div><div class="us">1080p · 60 fps</div></div>
+    <div class="row"><div>Sending files</div><div>Small size limit per file</div><div class="us">Sent directly to your friends</div></div>
+    <div class="row"><div>Account</div><div>Email and password</div><div class="us">Just a name</div></div>
+    <div class="row"><div>Price</div><div>Nitro for HD streaming</div><div class="us">Free, open source</div></div>
+  </div>
+  <p class="free-note reveal">Discord limits refer to the free plan at the time of writing.</p>
 
   <h2 class="reveal">No central server</h2>
   <div class="p2p reveal">
