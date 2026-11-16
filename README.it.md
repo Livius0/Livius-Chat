@@ -4,7 +4,11 @@ Chat, vocale, streaming e minigiochi tra amici. Per PC Windows e Android.
 
 Simile a Discord, ma senza server centrale: i dispositivi si collegano direttamente (peer-to-peer). Nessun account.
 
-https://github.com/user-attachments/assets/VIDEO-DEMO
+
+
+https://github.com/user-attachments/assets/77416986-ba4c-40a4-b2fd-298f5117bfd1
+
+
 
 *English version: [README.md](README.md)*
 
