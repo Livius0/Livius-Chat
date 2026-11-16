@@ -1,11 +1,14 @@
-[README.md](https://github.com/user-attachments/files/34912960/README.md)
 # Livius Chat
 
 Chat, voice, streaming and mini-games with friends. For Windows PC and Android.
 
 Similar to Discord, but with no central server: devices connect directly to each other (peer-to-peer). No account needed.
 
-https://github.com/user-attachments/assets/VIDEO-DEMO
+
+
+https://github.com/user-attachments/assets/e2de37fa-3efa-475c-b355-bdd64b168cb0
+
+
 
 *Versione italiana: [README.it.md](README.it.md)*
 
