@@ -6,7 +6,9 @@ Similar to Discord, but with no central server: devices connect directly to each
 
 
 
-https://github.com/user-attachments/assets/e2de37fa-3efa-475c-b355-bdd64b168cb0
+https://github.com/user-attachments/assets/3c536ab4-015c-45f0-80b2-eef98ef2291a
+
+
 
 
 
