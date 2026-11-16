@@ -6,7 +6,13 @@ Simile a Discord, ma senza server centrale: i dispositivi si collegano direttame
 
 
 
-https://github.com/user-attachments/assets/77416986-ba4c-40a4-b2fd-298f5117bfd1
+
+
+https://github.com/user-attachments/assets/50b87b86-f61e-4f3f-bf59-707a4c8e3b0d
+
+
+
+
 
 
 
